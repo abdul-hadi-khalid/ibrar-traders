@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter as HRouter, Routes, Route } from "react-router-dom";
 import { useLocation } from "react-router";
 import {useEffect} from 'react'
 
@@ -20,7 +20,7 @@ const ScrollToTop = (props) => {
 
 function Router() {
   return (
-    <BrowserRouter>
+    <HRouter>
         <Header />
         <ScrollToTop>
             <Routes>
@@ -29,7 +29,7 @@ function Router() {
                 <Route element={<Daily />} path='/daily'/>
             </Routes>
         </ScrollToTop>
-    </BrowserRouter>
+    </HRouter>
   )
 }
 
