@@ -1,0 +1,90 @@
+.sales-table-page{
+    background-color: #c8faf2;
+}
+.sales-table-flex{
+    height: 450px;
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-color: #c8faf2;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.sales-table-container{
+    width: 50%;
+    height: 100%;
+    background-color: #F5F0CD;
+}
+.sales-table-main-h{
+    height: 16%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px #144960;
+}
+.weekly-sales-heading{
+    text-align: center;
+    font-family: "Montserrat", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+}
+.sales-table-head{
+    height: 14%;
+    background-color: #FADA7A;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.sales-heading{
+    border: solid 2px #144960;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sales-table-data{
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sales-data{
+    height: 100%;
+    width: 50%;
+    border: solid 2px #144960;
+}
+ul {
+    list-style: none; /* Removes bullets */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+  }
+  
+  li {
+    margin: 0; /* Removes any default margin */
+    padding: 10px; /* Removes any default padding */
+    font-size: 20px;
+    text-align: center;
+  }
+
+@media (max-width:768px) {
+    .sales-table-container{
+        width: 80%;
+    }
+    .sales-table-head{
+        font-size: 15px;
+    }
+    .sales-table-flex{
+        height: 400px;
+    }
+    li{
+        font-size: 13px;
+    }
+}

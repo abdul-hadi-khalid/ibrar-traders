@@ -1,14 +1,20 @@
-.home-page{
+.home-page-1{
     margin-top: 60px;
     background-color: #c8faf2;
     height: 50vh;
     display: flex;
     align-items: center;
-    width: 100vw;
 }
 
 .img-logo img{
     height: 100%;
+}
+.home-page-2{
+    background-color: #c8faf2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
 }
 @media (max-width:768px) {
     .img-logo{
@@ -18,7 +24,7 @@
         justify-content: center;
         align-items: center;
     }
-    .home-page{
+    .home-page-1{
         padding: 0%;
         flex-direction: column;
         justify-content: space-evenly;
@@ -26,7 +32,7 @@
         height: 75vh;
         margin-top: 40px;
     }
-    .heading{
+    .home-heading{
         width: 60%;
     }
 
@@ -39,21 +45,23 @@
     .img-logo img{
         width: 100%;
     }
-    .home-page{
+    .home-page-1{
         padding: 4rem 4rem 4rem 4rem;
         justify-content: space-evenly
     }
-    .heading{
+    .home-heading{
         width: 20%;
     }
 }
-h2{
+.home-heading h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: orange;
 }
-.heading{
+.home-heading{
     background-color: white;
     border-radius: 20%;
     height: 30%;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

@@ -4,7 +4,7 @@ import { useLocation } from "react-router";
 import {useEffect} from 'react'
 
 import Home from '../pages/home'
-import Stock from '../pages/Stock'
+import StockPage from '../pages/Stock'
 import Daily from '../pages/Daily'
 import Header from '../components/Header'
 
@@ -25,7 +25,7 @@ function Router() {
         <ScrollToTop>
             <Routes>
                 <Route index element={<Home />} path='/'/>
-                <Route element={<Stock />} path='/stock'/>
+                <Route element={<StockPage />} path='/stock'/>
                 <Route element={<Daily />} path='/daily'/>
             </Routes>
         </ScrollToTop>

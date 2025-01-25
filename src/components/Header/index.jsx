@@ -23,7 +23,7 @@ function Header() {
                     textDecoration: isActive ? 'none':'none',
                     color: isActive ? 'blue' : 'black',
                  })}>
-        Daily</NavLink>
+        Sales</NavLink>
       </div>
     </div>
   )

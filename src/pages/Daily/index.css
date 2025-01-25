@@ -1,0 +1,15 @@
+.daily-page-container{
+    background-color: #c8faf2;
+    margin-top: 88px;
+}
+.daily-page-heading{
+    font-size: 60px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 4rem;
+}
+@media (max-width:768px) {
+    .daily-page-container{
+        margin-top: 40px;
+    }
+}

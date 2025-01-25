@@ -1,0 +1,22 @@
+.home-page-graph {
+  width: 100%; /* Increase width to utilize the full page */
+  max-width: 800px; /* Set a maximum width for better layout control */
+  height: 500px; /* Adjust the height for balance */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.sales-graph-head{
+  background-color: #4eac9c;
+  padding: 50px;
+  border-radius: 10px;
+}
+.sales-graph-head h1{
+  text-align: left;
+  font-family: "Montserrat", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 50px;
+}
