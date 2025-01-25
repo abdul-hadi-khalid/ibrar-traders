@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ibrar-traders/static/css/main.a8ec2eae.css",
+    "main.js": "/ibrar-traders/static/js/main.72f2ce23.js",
+    "static/js/488.4ad15922.chunk.js": "/ibrar-traders/static/js/488.4ad15922.chunk.js",
+    "index.html": "/ibrar-traders/index.html",
+    "main.a8ec2eae.css.map": "/ibrar-traders/static/css/main.a8ec2eae.css.map",
+    "main.72f2ce23.js.map": "/ibrar-traders/static/js/main.72f2ce23.js.map",
+    "488.4ad15922.chunk.js.map": "/ibrar-traders/static/js/488.4ad15922.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8ec2eae.css",
+    "static/js/main.72f2ce23.js"
+  ]
+}
